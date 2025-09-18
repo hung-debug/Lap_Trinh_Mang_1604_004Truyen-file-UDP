@@ -61,25 +61,18 @@ dự án mô phỏng quá trình **truyền tải file giữa hai máy tính tro
 ### sender
 <div align="center">
     <p align="center">
-        <img src:">
+        <img src="docs/Screenshot 2025-09-18 081940.png" alt="" width="270"/>
     </p>
-    <div>
+<div>
 
 
 ### receiver
 
-+------------------------------------+
-| listen port: [ ......... ] |
-| receiver ip: 192.168.x.x |
-| trạng thái: ● (đỏ/xanh) |
-| |
-| [ start receiver ] [ stop ] |
-| |
-| --- log --- |
-| ... |
-+------------------------------------+
-
----
+<div align="center">
+    <p align="center">
+        <img src="docs/Screenshot 2025-09-18 081932.png" alt="" width="270"/>
+    </p>
+<div>
 
 ## ⚙️ cách sử dụng
 
@@ -87,6 +80,7 @@ dự án mô phỏng quá trình **truyền tải file giữa hai máy tính tro
 ```bash
 javac senderfile/udpfilesenderdashboard.java
 javac senderfile/udpfilereceiverdashboard.java
+
 
 
 

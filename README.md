@@ -105,13 +105,8 @@ Hiển thị log quá trình nhận file.
 javac senderfile/udpfilesenderdashboard.java
 javac senderfile/udpfilereceiverdashboard.java
 
-Contact me:
 
-    Trịnh Việt Hưng CNTT 16-04
 
-    Khoa: Công nghệ thông tin - Trường Đại học Đại Nam 
-
-    email: hungvt12.mobifone@gmail.com
 
 
 

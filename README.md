@@ -33,7 +33,7 @@ dự án mô phỏng quá trình **truyền tải file giữa hai máy tính tro
 
 ## 3. ✨ Tính năng nổi bật
 
-### 🔹 sender (máy gửi)
+### 🔹 Sender (máy gửi)
 - Nhập **ip** và **port** của receiver.
 - **kết nối** tới receiver với nút `connect`.  
   > nếu kết nối thành công, trạng thái đổi từ 🔴 sang 🟢.
@@ -41,7 +41,7 @@ dự án mô phỏng quá trình **truyền tải file giữa hai máy tính tro
 - Gửi file sang receiver (`send file`).
 - Hiển thị log chi tiết quá trình gửi.
 
-### 🔹 receiver (máy nhận)
+### 🔹 Receiver (máy nhận)
 - Nhập **port** để mở cổng lắng nghe.
 - Bắt đầu nhận dữ liệu với `start receiver`.
 - Xác nhận kết nối từ sender và chuyển trạng thái sang 🟢.
@@ -81,6 +81,7 @@ dự án mô phỏng quá trình **truyền tải file giữa hai máy tính tro
 ```bash
 javac senderfile/udpfilesenderdashboard.java
 javac senderfile/udpfilereceiverdashboard.java
+
 
 
 

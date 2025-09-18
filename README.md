@@ -19,6 +19,7 @@
 
 
 </div>
+
 ## 📖 1. Giới thiệu
 
 Học phần trang bị cho người học những kiến thức nền tảng của lập trình mạng và các kỹ năng cần thiết để thiết kế và cài đặt các ứng dụng mạng và các chuẩn ở mức ứng dụng dựa trên mô hình Client/Server, có sử dụng các giao tiếp chương trình dựa trên Sockets. Kết thúc học phần, sinh viên có thể viết các chương trình ứng dụng mạng với giao thức tầng ứng dụng tự thiết kế.
@@ -80,6 +81,7 @@ dự án mô phỏng quá trình **truyền tải file giữa hai máy tính tro
 ```bash
 javac senderfile/udpfilesenderdashboard.java
 javac senderfile/udpfilereceiverdashboard.java
+
 
 
 

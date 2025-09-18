@@ -24,32 +24,32 @@
 
 Học phần trang bị cho người học những kiến thức nền tảng của lập trình mạng và các kỹ năng cần thiết để thiết kế và cài đặt các ứng dụng mạng và các chuẩn ở mức ứng dụng dựa trên mô hình Client/Server, có sử dụng các giao tiếp chương trình dựa trên Sockets. Kết thúc học phần, sinh viên có thể viết các chương trình ứng dụng mạng với giao thức tầng ứng dụng tự thiết kế.
 
-## 📂 2. udp file transfer dashboard (java swing)
+## 📂 2. UDP file transfer dashboard (java swing)
 
-ứng dụng **gửi và nhận file qua giao thức udp** với giao diện đồ họa trực quan được xây dựng bằng **java swing**.  
+Ứng dụng **gửi và nhận file qua giao thức udp** với giao diện đồ họa trực quan được xây dựng bằng **java swing**.  
 dự án mô phỏng quá trình **truyền tải file giữa hai máy tính trong mạng lan** theo cơ chế **sender ↔ receiver**, đồng thời hiển thị trạng thái kết nối trực quan bằng chấm màu 🔴🟢.
 
 ---
 
-## 3. ✨ tính năng nổi bật
+## 3. ✨ Tính năng nổi bật
 
 ### 🔹 sender (máy gửi)
-- nhập **ip** và **port** của receiver.
+- Nhập **ip** và **port** của receiver.
 - **kết nối** tới receiver với nút `connect`.  
   > nếu kết nối thành công, trạng thái đổi từ 🔴 sang 🟢.
-- chọn file cần gửi (`choose file`).
-- gửi file sang receiver (`send file`).
-- hiển thị log chi tiết quá trình gửi.
+- Chọn file cần gửi (`choose file`).
+- Gửi file sang receiver (`send file`).
+- Hiển thị log chi tiết quá trình gửi.
 
 ### 🔹 receiver (máy nhận)
-- nhập **port** để mở cổng lắng nghe.
-- bắt đầu nhận dữ liệu với `start receiver`.
-- xác nhận kết nối từ sender và chuyển trạng thái sang 🟢.
-- nhận file:
-  - tiếp nhận thông tin tên file (`filename:...`).
-  - ghép nối dữ liệu từ các gói udp.
-  - khi nhận `"eof"` → mở hộp thoại cho phép chọn nơi lưu file.
-- hiển thị log quá trình nhận file.
+- Nhập **port** để mở cổng lắng nghe.
+- Bắt đầu nhận dữ liệu với `start receiver`.
+- Xác nhận kết nối từ sender và chuyển trạng thái sang 🟢.
+- Nhận file:
+  - Tiếp nhận thông tin tên file (`filename:...`).
+  - Ghép nối dữ liệu từ các gói udp.
+  - Khi nhận `"eof"` → mở hộp thoại cho phép chọn nơi lưu file.
+- Hiển thị log quá trình nhận file.
 
 ### 🔹 trạng thái kết nối
 - 🔴 **đỏ** → chưa kết nối hoặc đã ngắt kết nối.  
@@ -57,7 +57,7 @@ dự án mô phỏng quá trình **truyền tải file giữa hai máy tính tro
 
 ---
 
-## 🖼️ 4. giao diện mô phỏng
+## 🖼️ 4. Giao diện mô phỏng
 
 ### sender
 <div align="center">
@@ -75,12 +75,13 @@ dự án mô phỏng quá trình **truyền tải file giữa hai máy tính tro
     </p>
 <div>
 
-## ⚙️ cách sử dụng
+## ⚙️ Cách sử dụng
 
-### 1️⃣ biên dịch
+### Biên dịch
 ```bash
 javac senderfile/udpfilesenderdashboard.java
 javac senderfile/udpfilereceiverdashboard.java
+
 
 
 

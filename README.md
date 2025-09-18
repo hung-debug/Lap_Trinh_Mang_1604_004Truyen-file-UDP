@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-   TRUYỀN FILE BẰNG GIAO THỨC UDP
+   LẬP TRÌNH MẠNG 
 </h2>
 <div align="center">
     <p align="center">
@@ -20,6 +20,8 @@
 
 </div>
 
+## GỬI FILE BẰNG GIAO THỨC UDP
+ 
 ## 📖 1. Giới thiệu
 Học phần trang bị cho người học những kiến thức nền tảng của lập trình mạng và các kỹ năng cần thiết để thiết kế và cài đặt các ứng dụng mạng và các chuẩn ở mức ứng dụng dựa trên mô hình Client/Server, có sử dụng các giao tiếp chương trình dựa trên Sockets. Kết thúc học phần, sinh viên có thể viết các chương trình ứng dụng mạng với giao thức tầng ứng dụng tự thiết kế.
 
@@ -104,6 +106,7 @@ Hiển thị log quá trình nhận file.
 
 javac senderfile/udpfilesenderdashboard.java
 javac senderfile/udpfilereceiverdashboard.java
+
 
 
 

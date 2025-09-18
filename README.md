@@ -59,16 +59,11 @@ dự án mô phỏng quá trình **truyền tải file giữa hai máy tính tro
 ## 🖼️ 4. giao diện mô phỏng
 
 ### sender
-+------------------------------------+
-| receiver ip: [ ......... ] |
-| receiver port: [ ......... ] |
-| trạng thái: ● (đỏ/xanh) |
-| |
-| [ connect ] [ choose file ] [send] |
-| |
-| --- log --- |
-| ... |
-+------------------------------------+
+<div align="center">
+    <p align="center">
+        <img src:">
+    </p>
+    <div>
 
 
 ### receiver
@@ -92,5 +87,6 @@ dự án mô phỏng quá trình **truyền tải file giữa hai máy tính tro
 ```bash
 javac senderfile/udpfilesenderdashboard.java
 javac senderfile/udpfilereceiverdashboard.java
+
 
 

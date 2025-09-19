@@ -79,11 +79,13 @@ Hệ thống Truyền tệp qua mạng bằng UDP được xây dựng bằng Ja
 ## 3. Một số hình ảnh của hệ thống
  
 🖥️ Giao diện Client
-![Client GUI](docs/Screenshot 2025-09-18 081940.png)
+
+![Client GUI](docs/sender.png)
 
 
 🖥️ Giao diện Server
-![Server GUI](docs/Screenshot 2025-09-18 081932.png)
+
+![Server GUI](docs/receiver.png)
 
 ## 4. Các bước cài đặt
 🔧 Bước 1. Chuẩn bị môi trường
@@ -136,3 +138,4 @@ Contact me:
 
 
     
+

@@ -125,7 +125,7 @@ Hệ thống Truyền tệp qua mạng bằng UDP được xây dựng bằng Ja
     Ở Receiver, chọn Lưu file hoặc Từ chối
 
 
-## 5. Liên hệ(cá nhân)
+## 5. Liên hệ
 
 Contact me:
 
@@ -138,5 +138,6 @@ Contact me:
 
 
     
+
 
 
